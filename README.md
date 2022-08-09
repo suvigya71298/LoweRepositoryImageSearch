@@ -17,8 +17,6 @@ You should have docker-desktop or docker-agent installed on your system.
 5. Run the container using command: docker run -p 9093:3000 image-finder
 6. launch the application in your browser: http://localhost:9093
 
-The application should should be up and running at port 3000. Visit http://localhost:3000 to view the application.
-
 # Overall Code Coverage:
 
 ![badge-lines](https://user-images.githubusercontent.com/70306563/183551972-ae34f172-7792-47ea-be89-3e8dcb8f7ede.svg)
