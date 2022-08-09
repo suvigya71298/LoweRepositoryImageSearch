@@ -1,16 +1,25 @@
-## Available Scripts
+# Image-search
 
-In the project directory, you can run:
+Image-finder application helps you find all the relevant images of your choice from all over the internet by just typing a keyword.
+This is a frontend web-application for finding all images on an infinitely scrollable web page. It uses a tech stack of HTML, CSS, ReactJs & NodeJs.
+This application uses its own dockerfile to create its docker image.
 
-### `npm install`
+How to install and run the project.
 
-Node Pre-requisites Node >= 14.0.0 and npm >= 5.6
+# Prerequisite:
+You should have docker-desktop or docker-agent installed on your system.
 
-To run the application, you can run:
-
-### `npm run start`
+# Steps to run:
+1. Git clone the project to your local.
+2. Change directory to project root.
+3. Open any terminal-emulator [cmd/git-bash/powershell]
+4. Run docker build -t image-finder .
+5. Run the container using command: docker run -p 9093:3000 image-finder
+6. launch the application in your browser: http://localhost:9093
 
 The application should should be up and running at port 3000. Visit http://localhost:3000 to view the application.
+
+# Overall Code Coverage:
 
 ![badge-lines](https://user-images.githubusercontent.com/70306563/183551972-ae34f172-7792-47ea-be89-3e8dcb8f7ede.svg)
 ![badge-statements](https://user-images.githubusercontent.com/70306563/183552012-615affca-6473-4a15-ad74-cf81ac7d18f9.svg)
